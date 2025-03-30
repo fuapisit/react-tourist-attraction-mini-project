@@ -46,7 +46,7 @@ function App() {
   };
 
   return (
-    <div className="app-container">
+    <div className="app-container max-w-4xl mx-auto">
       <Header />
       <SearchBar onSearch={handleSearch} />
 

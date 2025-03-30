@@ -6,7 +6,7 @@ const TripList = ({ trips }) => {
   }
 
   return (
-    <div className="trip-list">
+    <div className="trip-list p-4">
       {trips.map((trip) => (
         <TripCard key={trip.eid} trip={trip} />
       ))}
